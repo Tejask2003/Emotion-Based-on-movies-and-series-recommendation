@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Selection</title>
+    <link rel="stylesheet" href="lang.css">
+</head>
+<body>
+    <div class="container">
+        <h1 >Select a Language:</h1>
+        <button onclick="selectLanguage('english')">English</button>
+        <button onclick="selectLanguage('kannada')">Kannada</button><br>
+        <button onclick="selectLanguage('hindi')">Hindi</button>
+        <button onclick="selectLanguage('telugu')">Telugu</button><br>
+        <button onclick="selectLanguage('malayalam')">Malayalam</button>
+    </div>
+    
+    <script>
+        function selectLanguage(language) {
+            if (language === 'english') {
+                window.location.href = 'https://www.primevideo.com/search/ref=atv_nb_sug?ie=UTF8&phrase=comedy+english+movies'; // Redirect to English page
+            }
+        else    // You can add similar conditions for other languages if needed
+            if (language === 'kannada') {
+                window.location.href = 'https://www.primevideo.com/search/ref=atv_sr_sug_nb_sb_ss_i_2_15?phrase=kannada%20comedy%20movies&prefix=kannada%20comedy%20&ie=UTF8'; // Redirect to English page
+            }
+        else
+            if (language === 'hindi') {
+                window.location.href = 'https://www.primevideo.com/search/ref=atv_sr_sug_nb_sb_ss_i_2_10?phrase=hindi%20comedy%20movie&prefix=hindi%20come&ie=UTF8'; // Redirect to English page
+            }
+        else
+            if (language === 'telugu') {
+                window.location.href = 'https://www.primevideo.com/search/ref=atv_nb_sug?ie=UTF8&phrase=telugu+comedy+movie'; // Redirect to English page
+            }
+        else
+            if (language === 'malayalam') {
+                window.location.href = 'https://www.primevideo.com/search/ref=atv_sr_sug_nb_sb_ss_sc_1_16?phrase=malayalam%20comedy%20movies&prefix=malayaalm%20comedy&ie=UTF8'; // Redirect to English page
+            }
+        }
+    </script>
+</body>
+</html>

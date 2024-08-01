@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Selection</title>
+    <link rel="stylesheet" href="lang.css">
+</head>
+<body>
+    <div class="container">
+        <h1 >Select a Language:</h1>
+        <button onclick="selectLanguage('english')">English</button>
+        <button onclick="selectLanguage('kannada')">Kannada</button><br>
+        <button onclick="selectLanguage('hindi')">Hindi</button>
+        <button onclick="selectLanguage('telugu')">Telugu</button><br>
+        <button onclick="selectLanguage('malayalam')">Malayalam</button>
+    </div>
+    
+    <script>
+        function selectLanguage(language) {
+            if (language === 'english') {
+                window.location.href = 'enghappy.html'; // Redirect to English page
+            }
+        else    // You can add similar conditions for other languages if needed
+            if (language === 'kannada') {
+                window.location.href = 'kanhappy.html'; // Redirect to English page
+            }
+        else
+            if (language === 'hindi') {
+                window.location.href = 'hinhappy.html'; // Redirect to English page
+            }
+        else
+            if (language === 'telugu') {
+                window.location.href = 'ttelhappy.html'; // Redirect to English page
+            }
+        else
+            if (language === 'malayalam') {
+                window.location.href = 'mahappy.html'; // Redirect to English page
+            }
+        }
+    </script>
+</body>
+</html>

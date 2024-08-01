@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://wallpaperaccess.com/full/1260525.jpg'); /* Add your background image path here */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px; /* Adjust as needed */
+}
+
+h1 {
+    color: #fff;
+    font-size: 60px; /* Adjust as needed */
+    margin-bottom: 60px;
+}
+
+button {
+    background-color: #d38a7d;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f09f7f;
+}
+
